@@ -1,0 +1,53 @@
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы и директории, создаваемые средой разработки PyCharm
+.idea/
+*.iml
+
+# Файлы и директории, создаваемые Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы и директории, создаваемые виртуальным окружением Python
+venv/
+ENV/
+
+# Файлы и директории, создаваемые setuptools
+dist/
+build/
+*.egg-info/
+
+# Файлы и директории, создаваемые pytest
+.pytest_cache/
+
+# Файлы и директории, создаваемые mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Файлы и директории, создаваемые Sphinx
+docs/_build/
+
+# Файлы и директории, создаваемые tox
+.tox/
+
+# Файлы и директории, создаваемые coverage.py
+htmlcov/
+.coverage
+.coverage.*
+.coverage_*
+.coverage,cover
+.coverage.xml
+.coverage.json
+.coverage_html_report/
+
+# Файлы и директории, создаваемые pytest-cov
+pytestdebug.log
+
+# Файлы и директории, создаваемые pytest-xdist
+.pytest_cache/
+
+# Файлы и директории, создаваемые Detox
+.detox/
